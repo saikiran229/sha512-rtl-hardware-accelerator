@@ -10,6 +10,7 @@ Software-based cryptographic hashing introduces high latency and CPU overhead. T
 
 ## Tech Stack & Architecture
 * **Hardware Target:** AMD Zynq™ 7000 SoC ZC702 Evaluation Kit
+* ![ZC702 Zynq Board](ZC702 Board Layout.jpg)
 * **Language:** Verilog HDL
 * **EDA Tools:** Xilinx Vivado (Synthesis, Simulation, RTL Analysis)
 * **Core Logic:** 80-round compression pipeline, 1024-bit message scheduling, 64-bit internal state variables.
@@ -20,7 +21,6 @@ To verify architectural intent and ensure functional correctness prior to silico
 * **Correlation:** Simulated 512-bit hash outputs were successfully correlated against standard NIST test vectors to ensure absolute precision in the compression unit.
 
 ## 📈 Simulation Waveforms
-*(Ensure your waveform image is uploaded to the repo, then replace the filename below if different)*
 ![SHA-512 Vivado Simulation Waveform](sha512_waveform.png)
 
 ## Repository Structure
