@@ -5,6 +5,9 @@
 ## Objective
 Software-based cryptographic hashing introduces high latency and CPU overhead. This project implements a dedicated hardware accelerator for the SHA-512 algorithm (NIST FIPS 180-4). By leveraging low-level hardware logic (shifts, rotations, and bitwise operations) within a pipelined architecture, the design offloads heavy computation from the main processor, significantly improving throughput and timing closure.
 
+## Technical Documentation
+For a detailed breakdown of the Verilog implementation, message scheduling, and the 80-round compression architecture, please review the [SHA-512 Hardware Implementation Report](SHA_512_Hardware_report.pdf).
+
 ## NDA & Implementation Notice
 *Please Note: This project was developed during an internship at the Strategic Electronics Division (SED) of Electronics Corporation of India Limited (ECIL). Due to confidentiality agreements and NDA restrictions, the physical bitstream, Integrated Logic Analyzer (ILA) debugging setups, and specific ZC702 board constraint files (.xdc) have been omitted from this public repository. This repository contains the core RTL logic and simulation testbenches used for functional verification.*
 
