@@ -13,7 +13,7 @@ For a detailed breakdown of the Verilog implementation, message scheduling, and 
 
 ## Tech Stack & Architecture
 * **Hardware Target:** AMD Zynq™ 7000 SoC ZC702 Evaluation Kit
-* ![ZC702 Zynq Board](ZC702-Board-Layout.jpg)
+* ![ZC702 Zynq Board](ZC702_Board_Layout.jpg)
 * **Language:** Verilog HDL
 * **EDA Tools:** Xilinx Vivado (Synthesis, Simulation, RTL Analysis)
 * **Core Logic:** 80-round compression pipeline, 1024-bit message scheduling, 64-bit internal state variables.
